@@ -1,22 +1,51 @@
 # 🤔 Socratic Thinking GPT
 
-> **Transform your Socratic MCP into a deployable ChatGPT GPT**
+> **AI that asks, not answers. 78+ proven thinking methodologies.**
 
-[![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-blue)](https://modelcontextprotocol.io)
 [![GPT](https://img.shields.io/badge/ChatGPT-GPT_Builder-green)](https://chat.openai.com/gpts/editor)
+[![Methodologies](https://img.shields.io/badge/Methodologies-78+-blue)](knowledge/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 💡 What is This?
 
-This repository contains **ready-to-deploy GPT configuration** for **Socratic Thinking GPT** - an AI that asks questions instead of giving answers.
+**Socratic Thinking GPT** - an AI that guides you to discover insights through structured questioning using **78+ proven methodologies** from business strategy, creative thinking, and critical analysis.
 
-Based on the [Socratic Thinking MCP](https://github.com/seanshin0214/socratic-thinking-mcp), this GPT uses **58 proven thinking methodologies** to guide users through:
+Like Socrates, it doesn't give you fish. It teaches you to fish.
 
-- 🎯 **Strategic Decision-Making** (22 methods) - SWOT, BCG Matrix, Decision Tree, Porter's Five Forces...
-- 🧠 **Critical Thinking** (12 methods) - 5 Whys, Systems Thinking, Fishbone, Mental Models...
-- 🎨 **Creative Innovation** (24 methods) - SCAMPER, Design Thinking, TRIZ, Six Thinking Hats...
+## 🎯 78+ Methodologies
 
-## 🚀 Quick Deploy (3 minutes)
+### 📚 58 Core Methodologies (Embedded)
+
+- 🎯 **Strategic Decision-Making** (22 methods) - SWOT, BCG Matrix, Decision Tree, Porter's Five Forces, Blue Ocean, OKR, Pre-Mortem...
+- 🧠 **Critical Thinking** (12 methods) - 5 Whys, Systems Thinking, Fishbone, Six Thinking Hats, Phoenix Checklist...
+- 🎨 **Creative Innovation** (24 methods) - SCAMPER, Design Thinking, TRIZ, Lateral Thinking, Analogies...
+
+### 📁 20 Advanced Methodologies (Knowledge Files)
+
+**[Download from knowledge/ folder](knowledge/)**
+
+1. Question Storming (Gregersen)
+2. Kipling Method (5W1H)
+3. Appreciative Inquiry (4D Model)
+4. Socratic Questioning (6 types)
+5. Jobs To Be Done (JTBD)
+6. Liberating Structures (1-2-4-All)
+7. Assumption Testing
+8. Thought Experiments
+9. Cynefin Framework
+10. Impact-Effort Matrix
+11. Business Model Canvas
+12. Value Proposition Canvas
+13. Lean Canvas
+14. Theory of Constraints (TOC)
+15. Causal Loop Diagrams
+16. Critical Success Factors
+17. Stakeholder Mapping
+18. Worst Possible Idea
+19. Balanced Scorecard
+20. TRIZ Contradiction Matrix
+
+## 🚀 Quick Deploy (5 minutes)
 
 ### 1. Go to ChatGPT GPT Builder
 **Link:** https://chat.openai.com/gpts/editor
@@ -32,11 +61,11 @@ Socratic Thinking GPT
 
 **Description:**
 ```
-AI that asks, not answers. 58 proven thinking methodologies for strategic decisions, creative breakthroughs, and critical analysis. Like Socrates - I guide you to discover insights through structured questioning. 🤔
+AI that asks, not answers. 78+ proven thinking methodologies for strategic decisions, creative breakthroughs, and critical analysis. Like Socrates - I guide you to discover insights through structured questioning. 🤔
 ```
 
 **Instructions:**
-Copy and paste the entire content from `GPT-Instructions.md`
+Copy and paste the entire content from [`Socratic-GPT-Deploy-Ready.md`](Socratic-GPT-Deploy-Ready.md) (Step 2 - Instructions section)
 
 **Conversation Starters:**
 ```
@@ -46,46 +75,50 @@ Guide me through strategic analysis
 도움이 필요한 결정이 있어요
 ```
 
-**Capabilities:**
-- ❌ Code Interpreter: OFF
-- ❌ Web Browsing: OFF
-- ❌ DALL-E: OFF
+### 3. Upload Knowledge Files (20 files)
 
-### 3. Test
+**Download all files from:** [`knowledge/`](knowledge/)
+
+Upload to GPT Knowledge section:
+- 01-Question-Storming.md
+- 02-Kipling-Method.md
+- ... (all 20 files)
+
+### 4. Capabilities Settings
+
+**Set ALL to OFF:**
+- ❌ Code Interpreter
+- ❌ Web Browsing
+- ❌ DALL-E Image Generation
+- ❌ Canvas
+
+### 5. Test
+
 ```
 "Should I accept this new job offer?"
 ```
 
-Expected: Classifies as STRATEGIC → Recommends 2-3 methodologies → User selects → One question at a time
+**Expected:** 
+- Category: STRATEGIC 
+- Recommends 2-3 methodologies
+- User selects
+- ONE question at a time
+- Shows [Method: X - CATEGORY] format
 
-### 4. Publish
+### 6. Publish
+
 - **Public**: Available in GPT Store
 - **Unlisted**: Link-only access
 
-## 📁 Files in This Repository
+**Category:** Productivity > Decision Making
 
-| File | Description |
-|------|-------------|
-| `GPT-Instructions.md` | Complete GPT instructions (paste into GPT Builder) |
-| `Configuration-Guide.md` | Detailed configuration and testing guide |
-| `Deploy-Ready.md` | Step-by-step deployment checklist |
-| `README.md` | This file |
-
-## 🎯 Key Features
+## 🌟 Key Features
 
 ### Question-Based, Not Answer-Based
 ```
 Traditional AI: "You should choose option A because..."
 Socratic GPT: "Question 1/5: What outcomes are you optimizing for?"
 ```
-
-### 58 Structured Methodologies
-Each with predefined question sequences:
-- **SWOT** (4 questions)
-- **SCAMPER** (7 questions)
-- **Decision Tree** (5 questions)
-- **5 Whys** (5 questions)
-- ...and 54 more
 
 ### Progressive Questioning
 One question at a time, building on previous answers:
@@ -95,6 +128,8 @@ Question 1/5: What's the core decision?
 
 User: "MBA vs startup"
 
+✓ Noted: MBA vs startup choice
+
 [Method: DECISION TREE - STRATEGIC]
 Question 2/5: What are ALL your realistic options?
 ```
@@ -102,7 +137,10 @@ Question 2/5: What are ALL your realistic options?
 ### Bilingual (English + Korean)
 Automatically detects and responds in user's language.
 
-## 🌟 Example Usage
+### Academic Sources
+Each methodology includes references to original research and practitioners.
+
+## 📝 Example Usage
 
 **User:** "How can I improve my app's user engagement?"
 
@@ -112,9 +150,9 @@ Automatically detects and responds in user's language.
 Category: Creative & Innovation
 
 📋 Recommended methodologies:
-1. SCAMPER - For product innovation (7 steps)
-2. DESIGN THINKING - For user-centered solutions (5 steps)
-3. SIX THINKING HATS - For multi-perspective analysis (6 steps)
+1. SCAMPER - Product innovation (7 steps)
+2. DESIGN THINKING - User-centered solutions (5 steps)
+3. JOBS TO BE DONE - Customer motivation (5 steps)
 
 Which approach? (1/2/3)
 ```
@@ -129,32 +167,46 @@ Question 1/7: What can you SUBSTITUTE?
 Think about: Current features/elements that could be replaced
 ```
 
-[Continue with remaining 6 questions...]
+## 📁 Repository Structure
 
-## 📚 58 Methodologies Included
+```
+socratic-thinking-gpt/
+├── README.md                           # This file
+├── Socratic-GPT-Deploy-Ready.md       # Complete deployment guide
+├── Socratic-GPT-Configuration.md      # Detailed configuration
+├── Socratic-GPT-Instructions.md       # Full GPT instructions
+├── QUICK-START.md                     # 3-minute quick start
+└── knowledge/                         # 20 methodology files
+    ├── 01-Question-Storming.md
+    ├── 02-Kipling-Method.md
+    ├── 03-Appreciative-Inquiry.md
+    └── ... (17 more)
+```
 
-### Strategic & Decision-Making (22)
-SWOT | BCG Matrix | Porter's Five Forces | PESTEL | Ansoff Matrix | Blue Ocean | Value Chain | OKR | Decision Tree | Decision Matrix | Cost-Benefit | Pros-Cons-Fixes | Regret Minimization | Opportunity Cost | Eisenhower Matrix | Pre-Mortem | Scenario Planning | Second-Order Thinking | Systems Thinking | Mental Models | Inversion | Fishbone
+## 🎓 Complete Methodology List
 
-### Critical Thinking (12)
-5 Whys | Phoenix Checklist | Force-Field | Six Thinking Hats | Lateral Thinking | Attribute Listing | Morphological Analysis | Fractionation | Mind Mapping | Reversal | Lotus Blossom | Future Scenarios
+### 🎯 STRATEGIC & DECISION-MAKING (22 core + 8 advanced)
 
-### Creative & Innovation (24)
-SCAMPER | Design Thinking | TRIZ | Random Stimulation | Analogies | Fantasy Questions | Paradox | Forced Connection | Dreamscape | Intuition | Three B's | Relaxation | Talk to Stranger | Pattern Language | Drawing | Hypnagogic Imagery | Guided Imagery | Psychosynthesis | Hieroglyphics | Murder Board | Brainstorming | Circle of Opportunity | Idea Grid | Airline Method
+**Core:** SWOT, BCG Matrix, Porter's Five Forces, PESTEL, Ansoff Matrix, Blue Ocean, Value Chain, OKR, Decision Tree, Decision Matrix, Cost-Benefit, Pros-Cons-Fixes, Regret Minimization, Opportunity Cost, Eisenhower Matrix, Pre-Mortem, Scenario Planning, Second-Order Thinking, Systems Thinking, Mental Models, Inversion, Fishbone
 
-## 🔧 Customization
+**Advanced (Knowledge Files):** Appreciative Inquiry, Impact-Effort Matrix, Business Model Canvas, Value Proposition Canvas, Lean Canvas, Critical Success Factors, Stakeholder Mapping, Balanced Scorecard
 
-Want to add your own methodologies? Edit `GPT-Instructions.md`:
+### 🧠 CRITICAL THINKING (12 core + 6 advanced)
 
-1. Add to the appropriate category
-2. Define question sequence
-3. Add to Methodology Quick Reference section
-4. Update GPT instructions
+**Core:** 5 Whys, Phoenix Checklist, Force-Field, Six Thinking Hats, Lateral Thinking, Attribute Listing, Morphological Analysis, Fractionation, Mind Mapping, Reversal, Lotus Blossom, Future Scenarios
+
+**Advanced (Knowledge Files):** Kipling Method (5W1H), Socratic Questioning, Assumption Testing, Cynefin Framework, Theory of Constraints, Causal Loop Diagrams
+
+### 🎨 CREATIVE & INNOVATION (24 core + 6 advanced)
+
+**Core:** SCAMPER, Design Thinking, TRIZ, Random Stimulation, Analogies, Fantasy Questions, Paradox, Forced Connection, Dreamscape, Intuition, Three B's, Relaxation, Talk to Stranger, Pattern Language, Drawing, Hypnagogic Imagery, Guided Imagery, Psychosynthesis, Hieroglyphics, Murder Board, Brainstorming, Circle of Opportunity, Idea Grid, Airline Method
+
+**Advanced (Knowledge Files):** Question Storming, Jobs To Be Done, Liberating Structures (1-2-4-All), Thought Experiments, Worst Possible Idea, TRIZ Contradiction Matrix
 
 ## 📊 Success Metrics
 
 Your GPT succeeds when users:
-- ✅ Discover insights themselves
+- ✅ Discover insights themselves (not told)
 - ✅ Make better decisions through reflection
 - ✅ Learn thinking frameworks
 - ✅ Request multiple methodologies
@@ -162,13 +214,11 @@ Your GPT succeeds when users:
 
 ## 🤝 Contributing
 
-Based on [Socratic Thinking MCP](https://github.com/seanshin0214/socratic-thinking-mcp).
-
 Contributions welcome:
-- Additional methodologies (with academic/practitioner sources)
+- Additional methodologies (with academic sources)
 - Improved question templates
 - Translations (currently English + Korean)
-- Use case examples
+- Real-world use cases
 
 ## 📝 License
 
@@ -176,17 +226,20 @@ MIT License
 
 ## 🙏 Acknowledgments
 
-- **Socratic Method** - Ancient Greek philosophy
-- **Michael Michalko** - ThinkerToys (Creative methodologies)
-- **Edward de Bono** - Six Thinking Hats, Lateral Thinking
-- **Genrich Altshuller** - TRIZ methodology
-- **Jeff Bezos** - Regret Minimization Framework
-- **Model Context Protocol** - Anthropic
+**Methodologies & Sources:**
+- Socratic Method - Ancient Greek philosophy
+- Michael Michalko - ThinkerToys (Creative methodologies)
+- Edward de Bono - Six Thinking Hats, Lateral Thinking
+- Genrich Altshuller - TRIZ methodology
+- Clayton Christensen - JTBD, Disruptive Innovation
+- Alex Osterwalder - Business Model Canvas
+- Hal Gregersen - Question Storming (Harvard)
+- Dave Snowden - Cynefin Framework
+- Jeff Bezos - Regret Minimization Framework
 
 ## 🔗 Related Projects
 
-- [Socratic Thinking MCP](https://github.com/seanshin0214/socratic-thinking-mcp) - Original MCP implementation
-- [QualAI MCP](https://github.com/seanshin0214/qualai-mcp) - Qualitative research analysis
+- [QualAI MCP](https://github.com/seanshin0214/qualai-mcp) - Qualitative research analysis MCP
 
 ---
 
@@ -194,11 +247,13 @@ MIT License
 
 *"The unexamined life is not worth living." - Socrates*
 
+*"I cannot teach anybody anything. I can only make them think." - Socrates*
+
 ---
 
 ## 🎬 Quick Links
 
 - **Deploy Now**: https://chat.openai.com/gpts/editor
-- **Instructions**: [`GPT-Instructions.md`](GPT-Instructions.md)
-- **Full Guide**: [`Configuration-Guide.md`](Configuration-Guide.md)
-- **Checklist**: [`Deploy-Ready.md`](Deploy-Ready.md)
+- **Full Guide**: [`Socratic-GPT-Deploy-Ready.md`](Socratic-GPT-Deploy-Ready.md)
+- **Knowledge Files**: [`knowledge/`](knowledge/)
+- **Quick Start**: [`QUICK-START.md`](QUICK-START.md)
